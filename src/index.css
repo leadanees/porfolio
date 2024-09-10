@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@keyframes backgroundMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.bg-move {
+  animation: backgroundMove 30s linear infinite;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
